@@ -1,0 +1,25 @@
+{
+    "name": "airani/yii2-elasticsearch-log",
+    "description": "Yii 2.0 Elasticsearch log target",
+    "keywords": ["yii2", "elasticsearch", "log"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/airani/yii2-elasticsearch-log/issues",
+        "source": "https://github.com/airani/yii2-elasticsearch-log"
+    },
+    "authors": [
+        {
+            "name": "Ali Irani",
+            "email": "ali@irani.im"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "airani\\log\\": ""
+        }
+    }
+}
